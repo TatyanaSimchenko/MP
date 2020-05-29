@@ -1,17 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/libs.min.css">
-  <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+    />
+    <link rel="stylesheet" href="css/libs.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <div class="header__logo">
+              <a href="#">
+                <img src="images/logo.png" alt="" />
+              </a>
+            </div>
+            <div class="header__top-items">
+              <button class="header__btn">
+                Become a Seller
+              </button>
+              <ul class="header-item">
+                <li class="header-item__list">
+                  <a class="header-item__list-link" href="#">
+                    <span class="lnr lnr-alarm"></span>
+                  </a>
+                </li>
+                <li class="header-item__list">
+                  <a class="header-item__list-link" href="#">
+                    <span class="lnr lnr-envelope"></span>
+                  </a>
+                </li>
+                <li class="header-item__list">
+                  <a class="header-item__list-link" href="#">
+                    <span class="lnr lnr-cart"></span>
+                  </a>
+                </li>
+              </ul>
+              <div class="header__author">
+                <div class="header__author-avatar"></div>
+                <a class="header__author-link" href="#">
+                  <div class="header__author-name">Taofiq Hakim</div>
+                  <div class="header__author-price">$20.45</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="js/libs.min.js"></script>
-  <script src="js/main.min.js"></script>
+      <div class="header__menu">
+        <div class="container">
+          <div class="header__menu-inner">
+            <nav class="header__menu">
+              <ul class="header__menu-list">
+                <li>
+                  <a href="#">
+                    home
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    all products
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    wordpress
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    festures
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Pages
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__menu-form">
+              <form class="header__menu-search">
+                <input
+                  type="text"
+                  placeholder="Search product here..."
+                  required />
+                <button type="submit">
+                  <span class="lnr lnr-magnifier"></span>
+                </button>
+              </form>
+            </div>
+          </div>
+          
 
-</body>
+          
+        </div>
+      </div>
+    </header>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
 </html>
