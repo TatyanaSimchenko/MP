@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/libs.min.css" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="header__top">
@@ -30,18 +31,22 @@
                   <a class="header-item__list-link" href="#">
                     <span class="lnr lnr-alarm"></span>
                   </a>
+                  <a class="header-item__list-alarm num" href="#">25</a>
                 </li>
                 <li class="header-item__list">
                   <a class="header-item__list-link" href="#">
                     <span class="lnr lnr-envelope"></span>
                   </a>
+                  <a class="header-item__list-envelope num" href="#">6</a>
                 </li>
                 <li class="header-item__list">
                   <a class="header-item__list-link" href="#">
                     <span class="lnr lnr-cart"></span>
                   </a>
+                  <a class="header-item__list-cart num" href="#">2</a>
                 </li>
               </ul>
+
               <div class="header__author">
                 <div class="header__author-avatar"></div>
                 <a class="header__author-link" href="#">
@@ -53,7 +58,6 @@
           </div>
         </div>
       </div>
-
       <div class="header__menu">
         <div class="container">
           <div class="header__menu-inner">
@@ -91,19 +95,59 @@
                 <input
                   type="text"
                   placeholder="Search product here..."
-                  required />
+                  required
+                />
                 <button type="submit">
                   <span class="lnr lnr-magnifier"></span>
                 </button>
               </form>
             </div>
           </div>
-          
-
-          
         </div>
       </div>
     </header>
+
+    <section class="create">
+      <div class="container">
+        <div class="create__inner">
+          <div class="create__inner-title">
+            Create Your Own
+            <span>Digital Product Marketplace</span>
+          </div>
+          <div class="create__inner-text">
+            MartPlace is the most powerful, & customizable template for Easy
+            Digital Downloads Products
+          </div>
+          <button class="create__inner-view">View All Products</button>
+          <button class="create__inner-popular">Popular Products</button>
+        </div>
+        <div class="form__back"></div>
+      </div>
+    </section>
+    <section class="form">
+      <div class="container">
+        <div class="form__inner">
+          
+          <form class="form__search">
+            <input type="text" placeholder="Search your products..." required />
+            <button class="form__search-types" type="submit">
+              All Categories <span class="lnr lnr-chevron-down"></span>
+              <ul class="form__list">
+                <li><a href="#">Plugins</a></li>
+                <li><a href="#">WordPress</a></li>
+                <li><a href="#">Site Timeplate</a></li>
+                <li><a href="#">PSD Timeplate</a></li>
+                <li><a href="#">Joomla</a></li>
+                <li><a href="#">User Interface</a></li>
+                <li><a href="#">Landing Page</a></li>
+                <li><a href="#">Software</a></li>
+              </ul>
+            </button>
+            <button class="form__search-btn" type="submit">Search Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
