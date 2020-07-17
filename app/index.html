@@ -3,11 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
-    />
+    <title>MartPlace</title>
     <link rel="stylesheet" href="css/libs.min.css" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
@@ -17,42 +13,28 @@
       <div class="header__top">
         <div class="container">
           <div class="header__top-inner">
-            <div class="header__logo">
-              <a href="#">
-                <img src="images/logo.png" alt="" />
+              <a class="header__logo" href="#">
+                <img src="images/logo.png" alt="logo"/>
               </a>
-            </div>
-            <div class="header__top-items">
-              <button class="header__btn">
+            <div class="header__box">
+              <a href="#" class="seller__box">
                 Become a Seller
-              </button>
-              <ul class="header-item">
-                <li class="header-item__list">
-                  <a class="header-item__list-link" href="#">
-                    <span class="lnr lnr-alarm"></span>
-                  </a>
-                  <a class="header-item__list-alarm num" href="#">25</a>
-                </li>
-                <li class="header-item__list">
-                  <a class="header-item__list-link" href="#">
-                    <span class="lnr lnr-envelope"></span>
-                  </a>
-                  <a class="header-item__list-envelope num" href="#">6</a>
-                </li>
-                <li class="header-item__list">
-                  <a class="header-item__list-link" href="#">
-                    <span class="lnr lnr-cart"></span>
-                  </a>
-                  <a class="header-item__list-cart num" href="#">2</a>
-                </li>
-              </ul>
-
-              <div class="header__author">
-                <div class="header__author-avatar"></div>
-                <a class="header__author-link" href="#">
-                  <div class="header__author-name">Taofiq Hakim</div>
-                  <div class="header__author-price">$20.45</div>
-                </a>
+              </a>
+              <div class="notification__box">
+                <a class="notification header__circle lnr lnr-alarm " href="#"><span>25</span></a>
+              </div>
+              <div class="message__box">
+                <a class="message header__circle lnr lnr-envelope" href="#"><span>6</span></a>
+              </div>
+              <div class="bascet__box">
+                <a class="bascet header__circle lnr lnr-cart" href="#"><span>2</span></a>
+              </div>
+              <div class="user__box">
+                <a class="user__avatar" href="#"></a>
+                <div class="user__box-avatar">
+                  <div class="user__name">Taofiq Hakim</div>
+                  <div class="user__price">$20.45</div>
+                </div>
               </div>
             </div>
           </div>
@@ -61,8 +43,8 @@
       <div class="header__menu">
         <div class="container">
           <div class="header__menu-inner">
-            <nav class="header__menu">
-              <ul class="header__menu-list">
+            <nav class="header__nav">
+              <ul class="header__nav-list">
                 <li>
                   <a href="#">
                     home
@@ -90,15 +72,11 @@
                 </li>
               </ul>
             </nav>
+
             <div class="header__menu-form">
               <form class="header__menu-search">
-                <input
-                  type="text"
-                  placeholder="Search product here..."
-                  required
-                />
+                <input type="text" placeholder="Search product here..." required/>
                 <button type="submit">
-                  <span class="lnr lnr-magnifier"></span>
                 </button>
               </form>
             </div>
@@ -107,94 +85,7 @@
       </div>
     </header>
 
-    <section class="create">
-      <div class="container">
-        <div class="create__inner">
-          <div class="create__inner-title">
-            Create Your Own
-            <span>Digital Product Marketplace</span>
-          </div>
-          <div class="create__inner-text">
-            MartPlace is the most powerful, & customizable template for Easy
-            Digital Downloads Products
-          </div>
-          <button class="create__inner-view">View All Products</button>
-          <button class="create__inner-popular">Popular Products</button>
-        </div>
-        <div class="form__back"></div>
-      </div>
-    </section>
-    <section class="form">
-      <div class="container">
-        <div class="form__inner">
-          <form class="form__search">
-            <input type="text" placeholder="Search your products..." required />
-            <button class="form__search-types drop-down" type="submit">
-              All Categories <span class="lnr lnr-chevron-down"></span>
-              <ul class="drop-down__list">
-                <li><a href="#">Plugins</a></li>
-                <li><a href="#">WordPress</a></li>
-                <li><a href="#">Site Timeplate</a></li>
-                <li><a href="#">PSD Timeplate</a></li>
-                <li><a href="#">Joomla</a></li>
-                <li><a href="#">User Interface</a></li>
-                <li><a href="#">Landing Page</a></li>
-                <li><a href="#">Software</a></li>
-              </ul>
-            </button>
-            <button class="form__search-btn" type="submit">Search Now</button>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <section class="about">
-      <div class="container">
-        <div class="about__inner">
-          <div class="about__item">
-            <div class="about__item-img">
-              <img src="images/book.png" alt="" />
-            </div>
-            <div class="about__item-title">
-              Best UX Research
-            </div>
-            <p class="about__item-text">
-              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
-              ut scelerisque the mattis, leo quam aliquet diam congue is laoreet
-              elit metus.
-            </p>
-          </div>
-
-          <div class="about__item">
-            <div class="about__item-img">
-              <img src="images/wach.png" alt="" />
-            </div>
-            <div class="about__item-title">
-              Fully Responsive
-            </div>
-            <p class="about__item-text">
-              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
-              ut scelerisque the mattis, leo quam aliquet diam congue is laoreet
-              elit metus.
-            </p>
-          </div>
-
-          <div class="about__item">
-            <div class="about__item-img">
-              <img src="images/buy.png" alt="" />
-            </div>
-            <div class="about__item-title">
-              Best UX Research
-            </div>
-            <p class="about__item-text">
-              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
-              ut scelerisque the mattis, leo quam aliquet diam congue is laoreet
-              elit metus.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
