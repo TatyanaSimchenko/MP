@@ -1,36 +1,55 @@
 @font-face {
-  font-family: 'Quicksand';
-  src: local('Quicksand Light'), local('Quicksand-Light'), url('quicksandlight.woff2') format('woff2'), url('quicksandlight.woff') format('woff'), url('quicksandlight.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'Quicksand';
+	src: local('Quicksand Light'), local('Quicksand-Light'),
+			url('../fonts/Quicksand-Light.woff2') format('woff2'),
+			url('../fonts/Quicksand-Light.woff') format('woff'),
+			url('../fonts/Quicksand-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-  font-family: 'Quicksand';
-  src: local('Quicksand Regular'), local('Quicksand-Regular'), url('quicksandregular.woff2') format('woff2'), url('quicksandregular.woff') format('woff'), url('quicksandregular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'Quicksand';
+	src: local('Quicksand Regular'), local('Quicksand-Regular'),
+			url('../fonts/Quicksand-Regular.woff2') format('woff2'),
+			url('../fonts/Quicksand-Regular.woff') format('woff'),
+			url('../fonts/Quicksand-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-  font-family: 'Quicksand';
-  src: local('Quicksand Bold'), local('Quicksand-Bold'), url('quicksandbold.woff2') format('woff2'), url('quicksandbold.woff') format('woff'), url('quicksandbold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'Quicksand';
+	src: local('Quicksand Medium'), local('Quicksand-Medium'),
+			url('../fonts/Quicksand-Bold.woff2') format('woff2'),
+			url('../fonts/Quicksand-Bold.woff') format('woff'),
+			url('../fonts/Quicksand-Bold.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Quicksand';
+	src: local('Quicksand Bold'), local('Quicksand-Bold'),
+			url('../fonts/Quicksand-Bold.woff2') format('woff2'),
+			url('../fonts/Quicksand-Bold.woff') format('woff'),
+			url('../fonts/Quicksand-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
 }
 
 
 @font-face {
 	font-family: 'Linearicons-Free';
-	src:url('fonts/Linearicons-Free.eot?w118d');
-	src:url('fonts/Linearicons-Free.eot?#iefixw118d') format('embedded-opentype'),
-		url('fonts/Linearicons-Free.woff2?w118d') format('woff2'),
-		url('fonts/Linearicons-Free.woff?w118d') format('woff'),
-		url('fonts/Linearicons-Free.ttf?w118d') format('truetype'),
-		url('fonts/Linearicons-Free.svg?w118d#Linearicons-Free') format('svg');
+	src:url('../fonts/Linearicons-Free.eot?w118d');
+	src:url('../fonts/Linearicons-Free.eot') format('embedded-opentype'),
+		url('../fonts/Linearicons-Free.woff2') format('woff2'),
+		url('../fonts/Quicksand-Bold.woff') format('woff'),
+		url('../fonts/Linearicons-Free.ttf') format('truetype');
 	font-weight: normal;
   font-style: normal;
   font-display: swap;
