@@ -17,19 +17,22 @@
                 <img src="images/logo.png" alt="logo"/>
               </a>
             <div class="header__box">
-              <a href="#" class="seller__box">
+              <a href="#" class="header__box-seller">
                 Become a Seller
               </a>
-              <div class="notification__box">
-                <a class="notification header__circle lnr lnr-alarm " href="#"><span>25</span></a>
+              <div class="header__box-notification">
+                <a class="notification header__circle lnr lnr-alarm " href="#">
+                  <span class="header__circle-number">25</span></a>
               </div>
-              <div class="message__box">
-                <a class="message header__circle lnr lnr-envelope" href="#"><span>6</span></a>
+              <div class="header__box-message">
+                <a class="message header__circle lnr lnr-envelope" href="#">
+                  <span class="header__circle-number">6</span></a>
               </div>
-              <div class="bascet__box">
-                <a class="bascet header__circle lnr lnr-cart" href="#"><span>2</span></a>
+              <div class="header__box-bascet">
+                <a class="bascet header__circle lnr lnr-cart" href="#">
+                  <span class="header__circle-number">2</span></a>
               </div>
-              <div class="user__box">
+              <div class="header__box-user">
                 <a class="user__avatar" href="#"></a>
                 <div class="user__box-avatar">
                   <div class="user__name">Taofiq Hakim</div>
@@ -45,37 +48,37 @@
           <div class="header__menu-inner">
             <nav class="header__nav">
               <ul class="header__nav-list">
-                <li>
-                  <a href="#">
+                <li class="header__list">
+                  <a class="header__link" href="#">
                     home
                   </a>
                 </li>
-                <li>
-                  <a href="#">
+                <li class="header__list">
+                  <a class="header__link" href="#">
                     all products
                   </a>
                 </li>
-                <li>
-                  <a href="#">
+                <li class="header__list">
+                  <a class="header__link" href="#">
                     wordpress
                   </a>
                 </li>
-                <li>
-                  <a href="#">
+                <li class="header__list">
+                  <a class="header__link" href="#">
                     festures
                   </a>
                 </li>
-                <li>
-                  <a href="#">
-                    Pages
+                <li class="header__list">
+                  <a class="header__link" href="#">
+                    pages
                   </a>
                 </li>
               </ul>
             </nav>
             <div class="header__menu-form">
               <form class="header__menu-search">
-                <input type="text" placeholder="Search product here..." required/>
-                <button type="submit">
+                <input class="header__search" type="search" placeholder="Search product here..." required/>
+                <button class="header__btn" type="submit">
                 </button>
               </form>
             </div>
@@ -87,25 +90,25 @@
     <section class="create" style="background-image: url(images/create.jpg);">
       <div class="container">
         <div class="create__inner">
-          <div class="create__inner-title">
+          <div class="create__inner-title  ">
             Create Your Own 
-            <div class="create__inner-title--one">Digital Product Marketplace</div>
+            <div class="create__inner-title">Digital Product Marketplace</div>
           </div>
           <div class="create__inner-text">MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products</div>
         <div class="create__inner-product">
-          <a class="create__inner-product--link" href="#">View All Products</a>
-          <a class="create__inner-product--link" href="#">Popular Products</a>
+          <a class="create__inner-product" href="#">View All Products</a>
+          <a class="create__inner-product" href="#">Popular Products</a>
         </div>
         </div>
       </div>
     </section>
 
     <section class="search-form">
-      <form action="">
+      <form class="search-form" action="">
         <div class="search-form__inner">
           <div class="search-form__group">
             <div class="search-form__fields">
-              <input type="text" class="search-form__input" placeholder="Search your products...">
+              <input type="search" class="search-form__input" placeholder="Search your products...">
               <select name="select">
                 <option value="value1">All Categories </option>
                 <option value="value2">All Products</option>
@@ -124,8 +127,8 @@
       <div class="container">
         <div class="about__inner">
 
-          <div class="about__item about__item-research">
-            <img class="about__item-image" src="images/book.png" alt="book">
+          <div class="about__item about__item--research">
+            <div class="about__item-image" style="background-image: url(images/book.png);"></div>
             <div class="about__item-title">
               Best UX Research
             </div>
@@ -136,39 +139,435 @@ congue is laoreet elit metus.
             </div>
          </div>
 
-         <div class="about__item about__item-responsive">
-          <img class="about__item-image" src="images/wach.png" alt="wach">
+         <div class="about__item about__item--responsive">
+          <div class="about__item-image" style="background-image: url(images/wach.png);"></div>
           <div class="about__item-title about__item-title--responsive">
             Fully Responsive
           </div>
           <div class="about__item-text ">
             Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
-the mattis, leo quam aliquet diam
-congue is laoreet elit metus.
+            the mattis, leo quam aliquet diam
+            congue is laoreet elit metus.
           </div>
        </div>
 
-       <div class="about__item about__item-buy">
-        <img class="about__item-image" src="images/buy.png" alt="buy">
+       <div class="about__item about__item--buy">
+        <div class="about__item-image" style="background-image: url(images/buy.png);"></div>
         <div class="about__item-title">
           Buy & Sell Easily
         </div>
         <div class="about__item-text">
           Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
-the mattis, leo quam aliquet diam
-congue is laoreet elit metus.
-        </div>
-     </div>
-
+          the mattis, leo quam aliquet diam
+          congue is laoreet elit metus.
         </div>
       </div>
-          </section>
-    
+      </div>
+      </div>
+    </section>
+
+
+    <section class="weekly-slider">
+      <div class="container">
+        <div class="weekly-slider__title">
+          Weekly Featured Products
+        </div>
+        
+        <div class="weekly-slider__inner">
+
+          <div class="weekly-slider__item">
+          <div class="weekly-slider__items">
+            <img class="weekly-slider__image" src="images/weekly.jpg" alt="weekly">
+<div class="weekly-slider__box">
+<div class="weekly-slider__item-title">
+  One Page Resume Template
+</div>
+<div class="weekly-slider__item-author">
+  <img class="weekly-slider__item-author--avatar" src="images/avatar.svg" alt="avatar"></img>
+  <div class="weekly-slider__item-author--name">AazzTech</div>
+  <div class="weekly-slider__item-author--work">
+    <img src="images/wp.svg" alt="wp">
+    WordPress</div>
+</div>
+<div class="weekly-slider__item-text">
+  Nunc placerat mi id nisi interdum mollis. 
+  Praesent pharetra, justo ut scelerisque the mattis, 
+  leo quam aliquet congue placerat mi id nisi interdum mollis.
+  Praesent pharetra, justo ut scelerisque the mattis,
+  leo quam aliquet congue justo ut scelerisque.
+</div>
+<div class="weekly-slider__item-link">
+  <a class="weekly-slider__item-link--website" href="#">website</a>
+  <a class="weekly-slider__item-link--plugin" href="#">plugin</a>
+  <a class="weekly-slider__item-link--landing" href="#">landing page</a>
+</div>
+<div class="weekly-slider__infobox">
+  <div class="weekly-slider__infobox-price">
+    $10 - $50
+  </div>
+  <div class="weekly-slider__infobox-favorit">
+46
+  </div>
+  <div class="weekly-slider__infobox-purchase">
+634
+  </div>
+  <div class="weekly-slider__infobox-rating">
+    <div class="rate-star"></div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="weekly-slider__item">
+  <div class="weekly-slider__items">
+    <img class="weekly-slider__image" src="images/weekly.jpg" alt="weekly">
+<div class="weekly-slider__box">
+<div class="weekly-slider__item-title">
+Two Page Resume Template
+</div>
+<div class="weekly-slider__item-author">
+<img class="weekly-slider__item-author--avatar" src="images/avatar.svg" alt="avatar"></img>
+<div class="weekly-slider__item-author--name">AazzTech</div>
+<div class="weekly-slider__item-author--work">
+<img src="images/wp.svg" alt="wp">
+WordPress</div>
+</div>
+<div class="weekly-slider__item-text">
+Nunc placerat mi id nisi interdum mollis. 
+Praesent pharetra, justo ut scelerisque the mattis, 
+leo quam aliquet congue placerat mi id nisi interdum mollis.
+Praesent pharetra, justo ut scelerisque the mattis,
+leo quam aliquet congue justo ut scelerisque.
+</div>
+<div class="weekly-slider__item-link">
+<a class="weekly-slider__item-link--website" href="#">website</a>
+<a class="weekly-slider__item-link--plugin" href="#">plugin</a>
+<a class="weekly-slider__item-link--landing" href="#">landing page</a>
+</div>
+<div class="weekly-slider__infobox">
+<div class="weekly-slider__infobox-price">
+$10 - $50
+</div>
+<div class="weekly-slider__infobox-favorit">
+46
+</div>
+<div class="weekly-slider__infobox-purchase">
+634
+</div>
+<div class="weekly-slider__infobox-rating">
+<div class="rate-star"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="weekly-slider__item">
+  <div class="weekly-slider__items">
+    <img class="weekly-slider__image" src="images/weekly.jpg" alt="weekly">
+<div class="weekly-slider__box">
+<div class="weekly-slider__item-title">
+Three Page Resume Template
+</div>
+<div class="weekly-slider__item-author">
+<img class="weekly-slider__item-author--avatar" src="images/avatar.svg" alt="avatar"></img>
+<div class="weekly-slider__item-author--name">AazzTech</div>
+<div class="weekly-slider__item-author--work">
+<img src="images/wp.svg" alt="wp">
+WordPress</div>
+</div>
+<div class="weekly-slider__item-text">
+Nunc placerat mi id nisi interdum mollis. 
+Praesent pharetra, justo ut scelerisque the mattis, 
+leo quam aliquet congue placerat mi id nisi interdum mollis.
+Praesent pharetra, justo ut scelerisque the mattis,
+leo quam aliquet congue justo ut scelerisque.
+</div>
+<div class="weekly-slider__item-link">
+<a class="weekly-slider__item-link--website" href="#">website</a>
+<a class="weekly-slider__item-link--plugin" href="#">plugin</a>
+<a class="weekly-slider__item-link--landing" href="#">landing page</a>
+</div>
+<div class="weekly-slider__infobox">
+<div class="weekly-slider__infobox-price">
+$10 - $50
+</div>
+<div class="weekly-slider__infobox-favorit">
+46
+</div>
+<div class="weekly-slider__infobox-purchase">
+634
+</div>
+<div class="weekly-slider__infobox-rating">
+<div class="rate-star"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newest-slider">
+      <div class="container">
+        <div class="newest-slider__title">
+          <div class="newest-slider__title-products">
+            Newest Release Products
+          </div>
+          <a class="newest-slider__title-filter" href="#">
+            Filter by:
+          </a>
+        </div>
+<div class="newest-slider__inner">
+  <div class="newest-slider__inner-btn">
+    <button class="newest__btn newest__btn-plugins" type="button" data-filter="all">Plugins</button>
+    <button class="newest__btn newest__btn-wordpress" type="button" data-filter=".category-wordpress">WordPress</button>
+    <button class="newest__btn newest__btn-site" type="button" data-filter=".category-site">Site Template</button>
+    <button class="newest__btn newest__btn-psd" type="button" data-filter=".category-psd">PSD Template</button>
+    <button class="newest__btn newest__btn-joomla" type="button" data-filter=".category-joomla">Joomla</button>
+    <button class="newest__btn newest__btn-user" type="button" data-filter=".category-user">User Interface</button>
+    <button class="newest__btn newest__btn-landing" type="button" data-filter=".category-landing">Landing Page</button>
+    <button class="newest__btn newest__btn-software" type="button" data-filter=".category-software">Software</button>
+  </div>
+  <div class="newest-slider__wrapper">
+<div class="newest-slider__inner-box mix category-plugins category-user" data-order="1">
+  <div class="newest-slider__image">
+  <button class="newest-slider__btn">
+    More Info
+  </button>
+  <button class="newest-slider__btn">
+    Live Demo
+  </button>
+</div>
+  <div class="newest-slider__box">
+    <div class="newest-slider__item-title">
+      E-commerce Shopping Cart
+    </div>
+    <div class="newest-slider__item-author">
+    <img class="newest-slider__item-author--avatar" src="images/avatar.svg" alt="avatar"></img>
+    <div class="newest-slider__item-author--name">Theme-Valley</div>
+    <div class="newest-slider__item-author--work">
+    Plugin
+  </div>
+    </div>
+    <div class="newest-slider__item-text">
+    Nunc placerat mi id nisi interdum mollis. 
+    Praesent pharetra, justo ut scelerisque the mattis, 
+    leo quam aliquet congue 
+    </div>
+    <div class="newest-slider__infobox">
+    <div class="newest-slider__infobox-price">
+    $20
+    </div>
+    <div class="newest-slider__infobox-favorit">
+    90
+    </div>
+    <div class="newest-slider__infobox-purchase">
+    246
+    </div>
+    </div>
+    </div>
+</div>
+
+<div class="newest-slider__inner-box mix category-wordpress category-psd category-user" data-order="2">
+  <div class="newest-slider__image">
+    <img src="images/newest-one.jpg" alt="newest">
+</div>
+  <div class="newest-slider__box newest-slider__box-echo">
+    <div class="newest-slider__item-title">
+      Marketify Coffee Shop
+    </div>
+    <div class="newest-slider__item-author">
+    <img class="newest-slider__item-author--avatar" src="images/avatar.svg" alt="avatar"></img>
+    <div class="newest-slider__item-author--name ">EchoTheme</div>
+    <div class="newest-slider__item-author--coffe">
+    PSD</div>
+    </div>
+    <div class="newest-slider__item-text">
+    Nunc placerat mi id nisi interdum mollis. 
+    Praesent pharetra, justo ut scelerisque the mattis, 
+    leo quam aliquet congue 
+    </div>
+    <div class="newest-slider__infobox">
+    <div class="newest-slider__infobox-price">
+    $18
+    </div>
+    <div class="newest-slider__infobox-favorit">
+    48
+    </div>
+    <div class="newest-slider__infobox-purchase">
+    50
+    </div>
+    </div>
+    </div>
+</div>
+
+<div class="newest-slider__inner-box mix category-site category-user category-new" data-order="3">
+  <div class="newest-slider__image">
+    <img src="images/newest-two.jpg" alt="newest">
+</div>
+  <div class="newest-slider__box newest-slider__box-artcorner">
+    <div class="newest-slider__item-title">
+      Bryson - Portfolio Template
+    </div>
+    <div class="newest-slider__item-author">
+    <img class="newest-slider__item-author--avatar" src="images/avatar.svg" alt="avatar"></img>
+    <div class="newest-slider__item-author--name ">Artcorner</div>
+    <div class="newest-slider__item-author--bryston">
+    HTML</div>
+    </div>
+    <div class="newest-slider__item-text">
+    Nunc placerat mi id nisi interdum mollis. 
+    Praesent pharetra, justo ut scelerisque the mattis, 
+    leo quam aliquet congue 
+    </div>
+    <div class="newest-slider__infobox">
+    <div class="newest-slider__infobox-price">
+    $10
+    </div>
+    <div class="newest-slider__infobox-favorit">
+    56
+    </div>
+    <div class="newest-slider__infobox-rating">
+      <div class="rate-star"></div>
+      </div>
+    <div class="newest-slider__infobox-purchase">
+    68
+    </div>
+    </div>
+    </div>
+</div>
+
+<div class="newest-slider__inner-box mix category-site category-plugins category-user" data-order="4">
+  <div class="newest-slider__image">
+    <img src="images/newest-one.jpg" alt="newest">
+</div>
+  <div class="newest-slider__box newest-slider__box-hub">
+    <div class="newest-slider__item-title">
+      E-commerce Shopping Cart
+    </div>
+    <div class="newest-slider__item-author">
+    <img class="newest-slider__item-author--avatar" src="images/avatar.svg" alt="avatar"></img>
+    <div class="newest-slider__item-author--name ">Design-Hub</div>
+    <div class="newest-slider__item-author--work">
+    Plugin</div>
+    </div>
+    <div class="newest-slider__item-text">
+    Nunc placerat mi id nisi interdum mollis. 
+    Praesent pharetra, justo ut scelerisque the mattis, 
+    leo quam aliquet congue 
+    </div>
+    <div class="newest-slider__infobox">
+    <div class="newest-slider__infobox-price">
+    $10 - 50
+    </div>
+    <div class="newest-slider__infobox-favorit">
+    90
+    </div>
+    <div class="newest-slider__infobox-rating">
+      <div class="rate-star"></div>
+      </div>
+    <div class="newest-slider__infobox-purchase">
+    45
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<div class="newest-slider__inner-box mix category-user category-new" data-order="5">
+  <div class="newest-slider__image">
+    <img src="images/newest-two.jpg" alt="newest">
+</div>
+  <div class="newest-slider__box newest-slider__box-tech">
+    <div class="newest-slider__item-title">
+      Marketify Coffee Shop
+    </div>
+    <div class="newest-slider__item-author">
+    <img class="newest-slider__item-author--avatar" src="images/avatar.svg" alt="avatar"></img>
+    <div class="newest-slider__item-author--name ">AazzTech</div>
+    <div class="newest-slider__item-author--coffe">
+    PSD</div>
+    </div>
+    <div class="newest-slider__item-text">
+    Nunc placerat mi id nisi interdum mollis. 
+    Praesent pharetra, justo ut scelerisque the mattis, 
+    leo quam aliquet congue 
+    </div>
+    <div class="newest-slider__infobox">
+    <div class="newest-slider__infobox-price">
+    $10 - 50
+    </div>
+    <div class="newest-slider__infobox-favorit">
+    48
+    </div>
+    <div class="newest-slider__infobox-purchase">
+    50
+    </div>
+    </div>
+    </div>
+</div>
+
+<div class="newest-slider__inner-box mix category-user category-new" data-order="6">
+  <div class="newest-slider__image">
+    <img src="images/newest-one.jpg" alt="newest">
+</div>
+  <div class="newest-slider__box newest-slider__box-code">
+    <div class="newest-slider__item-title">
+      Bryson - Portfolio Template
+    </div>
+    <div class="newest-slider__item-author">
+    <img class="newest-slider__item-author--avatar" src="images/avatar.svg" alt="avatar"></img>
+    <div class="newest-slider__item-author--name ">Code-Lab</div>
+    <div class="newest-slider__item-author--bryston">
+    HTML</div>
+    </div>
+    <div class="newest-slider__item-text">
+    Nunc placerat mi id nisi interdum mollis. 
+    Praesent pharetra, justo ut scelerisque the mattis, 
+    leo quam aliquet congue 
+    </div>
+    <div class="newest-slider__infobox">
+    <div class="newest-slider__infobox-price">
+    $10
+    </div>
+    <div class="newest-slider__infobox-favorit">
+    56
+    </div>
+    <div class="newest-slider__infobox-rating">
+      <div class="rate-star"></div>
+      </div>
+    <div class="newest-slider__infobox-purchase">
+    68
+    </div>
+    </div>
+    </div>
+</div>
+</div>
+<div class="newest-slider__btn" >
+  <button class="newest-slider__btn--new" type="button" data-filter=".category-new">
+    All New Products
+  </button>
+</div>
+
+
+
+
+</div>
+
+      </div>
+
+    </section>
 
     
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
